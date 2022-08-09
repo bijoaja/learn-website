@@ -1,0 +1,6 @@
+.table{
+    position:-webkit-sticky;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 50%;
+}

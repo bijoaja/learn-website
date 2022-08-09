@@ -1,0 +1,113 @@
+body {
+    background-color:rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .navbar {
+    background-color: #ffdfca;
+    border: 1px solid rgb(201, 137, 137);
+  }
+  
+  .navbar2 {
+    background-color: rgb(223, 173, 155);
+  }
+  
+  footer {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(223, 173, 155);
+  }
+  
+  .bi-house-door {
+    width: 20px;
+  }
+  
+  .carousel {
+    margin-top: 10px;
+  }
+  
+  .content.row.card.card-berita {
+    transition: 0s;
+  }
+  
+  .card {
+    transition: 0.5s;
+  }
+  
+  .card:hover {
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  .sidebar {
+    background-color: rgb(211, 147, 147);
+  }
+
+  .list_item {
+    background-color: #F1F1F1;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 2px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+  .show_more_main {
+    margin: 20px auto;
+    position: relative;
+}
+  .show_more {
+      background-color: #f8f8f8;
+      background-image: -webkit-linear-gradient(top,#fcfcfc 0,#f8f8f8 100%);
+      background-image: linear-gradient(top,#fcfcfc 0,#f8f8f8 100%);
+      border: 1px solid;
+      border-color: #d3d3d3;
+      color: #333;
+      font-size: 12px;
+      outline: 0;
+}
+  .show_more{
+      cursor: pointer;
+      display: block;
+      padding: 10px 0;
+      text-align: center;
+      font-weight:bold;
+      margin: 20px auto;
+      position: relative;
+}
+
+  .loding {
+      background-color: #e9e9e9;
+      border: 1px solid;
+      border-color: #c6c6c6;
+      color: #333;
+      font-size: 12px;
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      outline: 0;
+      font-weight:bold;
+}
+  .loding_txt {
+      background-image: url(loading.gif);
+      background-position: left;
+      background-repeat: no-repeat;
+      border: 0;
+      display: inline-block;
+      height: 16px;
+      padding-left: 20px;
+}
+  #btn-loadmore {
+    margin: 50px auto 0px;
+    display: table;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #2196f3;
+    transition: 0.5s;
+}
